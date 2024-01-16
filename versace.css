@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&family=Rubik+Doodle+Triangles&display=swap');*{
+    margin: 0;
+    padding: 0%;
+}
+
+
+
+.container .navigasyonbar{
+    width: 100%;
+    height: 10%;
+    background-color:white;
+       
+    
+}
+
+.navigasyonbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.navigasyonbar .logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family:Bebas Neue;
+    color: black;
+}
+.navigasyonbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navigasyonbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+.navigasyonbar ul li a{
+   color: black;
+   text-decoration: 20px;
+   padding: 10px 20px; 
+   font-family:Bebas Neue;
+    line-height: 125px;
+   font-size: 25px;
+}
+.navigasyonbar ul li a:hover{
+background-color:gray;
+border-radius: 50px;
+
+}
+
+.urun {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.product {
+    display: flex;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.product-info p.price {
+    color: #e44d26;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.product-info p.description {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.add-to-cart {
+    background-color:black;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.reviews {
+    margin-top: 30px;
+}
+
+.reviews h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.review p.user {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review p.comment {
+    color: #555;
+}
+
+.footer{
+    background-color:#f2f2f2;
+  }
+  .footer-paragraf{
+    background-color: black;
+    color: white;
+    font-family:Bebas Neue;
+    word-spacing: 5px;
+  }
+  img{
+    width: 100%;
+}
